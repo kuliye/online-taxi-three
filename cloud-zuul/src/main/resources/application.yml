@@ -1,0 +1,14 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name: online-yaxo-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: : http://localhost:7900/eureka
+  instance:
+    hostname: localhost
+    instance-id: online-taxi-zuul
