@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: online-yaxo-zuul
+    name: online-taxi-zuul
 
 eureka:
   client:
     service-url:
-      defaultZone: : http://localhost:7900/eureka
+      defaultZone: http://localhost:7900/eureka
   instance:
     hostname: localhost
     instance-id: online-taxi-zuul
